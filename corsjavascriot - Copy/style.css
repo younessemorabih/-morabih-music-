@@ -1,0 +1,85 @@
+body{
+    background-color:#13072c;
+    height: 100vh;
+    color: white;
+
+}
+.my-h1{
+    margin-left:100px;
+    margin-top: 100px;
+    text-align: center;
+    font-family: cursive;
+    font-size: 50px;
+  
+}
+
+button{
+    margin-left:10px;
+    margin-top:30px;
+    background-color: #1b0409;
+    color: white;
+    border-radius:5px;
+    border: 2px solid white;
+    width:80px;
+    height:100px;
+    
+}   
+
+div{
+    text-align: center;
+    margin-left: 10px;
+}
+p{
+    color: darkviolet;
+    margin-top:20px;
+}
+
+h2{
+    margin-top:20px;
+    height:20px;
+}
+
+ @media screen and (max-width:600px) {
+    button{
+        display:block;
+        margin-left: 200px;
+       
+    }
+    .my-h2{
+        font-size: 30px;
+    }
+    
+ }    
+
+.my-h2{
+    color: red;
+    animation-name: my-h2;
+    animation-duration:2s;
+    
+
+}
+@keyframes my-h2 {
+    10%{
+        color: aqua;
+    }
+    30%{
+        color: coral;
+
+    }
+
+    40%{
+        color: chartreuse;
+
+    }
+    50%{
+        color: chocolate;
+        
+    }
+    60%{
+        color: darkorchid;
+        
+    }
+    70%{
+        font-size: 50px ;
+    }
+}
